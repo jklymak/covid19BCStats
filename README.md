@@ -6,4 +6,4 @@ This is provided with no warranty, and was quickly cobbled together for my own i
 
 That said, any suggestions or corrections gratefully accepted.  Or pointers to better databases and analyses!
 
-!(Cases)[https://github.com/jklymak/covid19BCStats/blob/master/Cases.png]
+![Cases](https://github.com/jklymak/covid19BCStats/blob/master/Cases.png)
