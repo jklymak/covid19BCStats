@@ -1,11 +1,10 @@
 ---
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
+title: Unofficial statistics for BC COVID 19 outbreak and some plots.
 layout: home
 ---
 
-## Unofficial statistics for BC COVID 19 outbreak and some plots.
 
 Source: mostly <http://covid-19.bccdc.ca> plus press reports before 15 Mar.  
 
