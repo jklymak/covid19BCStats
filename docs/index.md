@@ -17,4 +17,8 @@ This is provided with no warranty, and was quickly cobbled together for my own i
 
 That said, any suggestions or corrections gratefully accepted.  Or pointers to better databases and analyses!
 
-![Cases](/images/Cases.png)
+![Cases](./images/Cases.png)
+
+![Vancouver Island](./images/VancouverIsland.png)
+
+![Testing numbers](./images/TestingRate.png)
