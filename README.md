@@ -1,6 +1,6 @@
 # Statistics for BC COVID 19 outbreak and some plots.
 
-Source: mostly http://covid-19.bccdc.ca plus press reports before 15 Mar.  
+Source: mostly <http://covid-19.bccdc.ca> plus press reports before 15 Mar.  
 
 This is a time series plot of COVID 19 cases in British Columbia, Canada, and Vancouver Island.  The goal is to see what the growth rate is, and whether actions by the government are having an effect on that growth rate.  
 
