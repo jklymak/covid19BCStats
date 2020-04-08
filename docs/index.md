@@ -6,9 +6,9 @@ Jody Klymak
 
 Source: mostly <http://covid-19.bccdc.ca> plus press reports before 15 Mar.  
 
-This is a time series plot of COVID 19 cases in British Columbia, Canada, and Vancouver Island.  The goal is to see what the growth rate is, and whether actions by the government are having an effect on that growth rate.  
+These are time series plot of COVID 19 cases in British Columbia, Canada, and Vancouver Island.  The goal is to see what the growth rate is, and whether actions by the government are having an effect on that growth rate.  
 
-This is provided ith no warranty, and was quickly cobbled together for my own interest.  If you need this data for something serious, please do due dilligence and look the data up yourself!  There is no warranty express or implied.  I am also not at *all* trained in epidemiology, so do not assume my interpretation of the data has any meaning or value.  
+These plots are provided with no warranty, and were quickly cobbled together for my own interest.  If you need this data for something serious, please do due dilligence and look the data up yourself! I am also not at *all* trained in epidemiology, so do not assume my interpretation of the data has any meaning or value.  
 
 [Source code and data available on Github!](https://github.com/jklymak/covid19BCStats)
 
