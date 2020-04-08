@@ -14,19 +14,24 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Unofficial COVID-19 statistics plots for British Columbia
-email: jklymak@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Statistics from the BC Centre of Disease Control, plotted as time series.
 baseurl: "/covid19BCStats" # the subpath of your site, e.g. /blog
 url: "https://jklymak.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jklymak
-github_username:  jklymak
+paginate:            5
+paginate_path: "/blog/page:num/"
+
+
+author:
+  name:    Jody Klymak
+  url:     http://web.uvic.ca/~jklymak
+  email:   jklymak@gmail.com
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-minimal
+theme: jekyll-theme-lanyon
 plugins:
-  - jekyll-feed
+  - jekyll-paginate
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
