@@ -1,0 +1,46 @@
+---
+layout: default
+title: Home
+---
+
+<p>Source: mostly <a href="http://covid-19.bccdc.ca">http://covid-19.bccdc.ca</a> plus press reports before 15 Mar.</p>
+
+<p>This is a time series plot of COVID 19 cases in British Columbia, Canada, and Vancouver Island.  The goal is to see what the growth rate is, and whether actions by the government are having an effect on that growth rate.</p>
+
+<p>This is provided with no warranty, and was quickly cobbled together for my own interest.  If you need this data for something serious, please do due dilligence and look the data up yourself!  There is no warranty express or implied.  I am also not at <i>all</i> trained in epidemiology, so do not assume my interpretation of the data has any meaning or value.</p>
+
+
+<p>That said, any suggestions or corrections gratefully accepted.  Or pointers to better databases and analyses.</p>
+
+<div class="posts">
+  {% for post in paginator.posts %}
+  <div class="post">
+    <h1 class="post-title">
+      <a href="{{ post.url | absolute_url }}">
+        {{ post.title }}
+      </a>
+    </h1>
+
+    <span class="post-date">{{ post.date | date_to_string }}</span>
+
+    {{ post.content }}
+  </div>
+  {% endfor %}
+</div>
+
+<div class="pagination">
+  {% if paginator.next_page %}
+    <a class="pagination-item older" href="{{ paginator.next_page_path | absolute_url }}">Older</a>
+  {% else %}
+    <span class="pagination-item older">Older</span>
+  {% endif %}
+  {% if paginator.previous_page %}
+    {% if paginator.page == 2 %}
+      <a class="pagination-item newer" href="{{ '/' | absolute_url }}">Newer</a>
+    {% else %}
+      <a class="pagination-item newer" href="{{ paginator.previous_page_path | absolute_url }}">Newer</a>
+    {% endif %}
+  {% else %}
+    <span class="pagination-item newer">Newer</span>
+  {% endif %}
+</div>
