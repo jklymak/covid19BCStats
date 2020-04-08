@@ -21,11 +21,8 @@ url: "https://jklymak.github.io/" # the base hostname & protocol for your site, 
 paginate:            5
 paginate_path: "/blog/page:num/"
 
-
-author:
-  name:    Jody Klymak
-  url:     http://web.uvic.ca/~jklymak
-  email:   jklymak@gmail.com
+author:    Jody Klymak
+email:   jklymak@gmail.com
 
 # Build settings
 markdown: kramdown
