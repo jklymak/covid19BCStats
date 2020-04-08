@@ -2,6 +2,7 @@
 layout: home
 ---
 
+Jody Klymak
 
 Source: mostly <http://covid-19.bccdc.ca> plus press reports before 15 Mar.  
 
