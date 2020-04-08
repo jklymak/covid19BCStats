@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 title: Unofficial statistics for BC COVID 19 outbreak
 author: Jody Klymak
-layout: home
+layout: default
 ---
 
 
