@@ -14,10 +14,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Unofficial COVID-19 statistics plots for British Columbia
-name: Jody Klymak
+tagline: COVID-19 statistics from the BC Centre of Disease Control, plotted as  time series.
+author: Jody Klymak
 email: jklymak@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Statistics from the BC Centre of Disease Control, plotted as time series.
+  COVID-19 statistics from the BC Centre of Disease Control, plotted as
+  time series.
 baseurl: "/covid19BCStats" # the subpath of your site, e.g. /blog
 url: "https://jklymak.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 paginate:            5
