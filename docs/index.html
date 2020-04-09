@@ -1,0 +1,42 @@
+---
+layout: default
+---
+
+<p> <h3>Jody Klymak: <a href="mailto:jklymak@gmail.com">jklymak@gmail.com</a></h3> </p>
+
+<p>Source: mostly <a href="http://covid-19.bccdc.ca">http://covid-19.bccdc.ca</a> plus press reports before 15 Mar.</p>
+
+<p>These are time series plot of COVID 19 cases in British Columbia, Canada, and Vancouver Island.  The goal is to see what the growth rate is, and whether actions by the government are having an effect on that growth rate.</p>
+
+
+<a href="https://github.com/jklymak/covid19BCStats">Source code and data available on Github!</a>
+
+<!-- This loops through the paginated posts -->
+{% for post in paginator.posts %}
+  <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+  <div class="content">
+    {{ post.content }}
+  </div>
+{% endfor %}
+
+<h3>Caveats</h3>
+
+<p>These plots are provided with no warranty, and were quickly cobbled together for my own interest.  If you need this data for something serious, please do due dilligence and look the data up yourself! I am also not at *all* trained in epidemiology, so do not assume my interpretation of the data has any meaning or value.</p>
+
+<p>That said, any suggestions or corrections gratefully accepted.  Or pointers to better databases and analyses.</p>
+
+
+<!-- Pagination links -->
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ site.baseurl }}{{ paginator.previous_page_path }}" class="previous">Previous</a>
+  {% else %}
+    <span class="previous">Previous</span>
+  {% endif %}
+  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+  {% if paginator.next_page %}
+    <a href="{{ site.baseurl }}{{ paginator.next_page_path }}" class="next">Next</a>
+  {% else %}
+    <span class="next ">Next</span>
+  {% endif %}
+</div>
